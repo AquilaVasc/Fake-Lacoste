@@ -1,0 +1,133 @@
+@font-face{
+	font-family: FuturaMd;
+	src: url(fonts/FuturaMd.ttf);
+}
+
+@font-face{
+	font-family: lacoste;
+	src: url(fonts/LacosteSansCondensedLight.woff)
+}
+@font-face{
+	font-family: lacoste bold;
+	src: url(fonts/LacosteSansCondensedBold.woff)
+}
+body{
+	font-family: lacoste;
+}
+
+a{
+	color: black;
+}
+
+.nav-principal ul li{
+	font-size: 18px;
+	display: inline-block;
+	padding: 2px 10px;
+	margin: 10px 15px;
+	height: inherit;
+	line-height: inherit;
+	text-transform: uppercase;
+	color: black;
+	font-family: lacoste bold;
+	width: 115px;
+	font-weight: bold
+}
+
+.nav-principal ul li:hover{
+	background: black;
+	transition: 0.7s;
+}
+
+ul li:hover a{
+	color: white;
+}
+
+.button{
+	margin: 10px;
+	width: 100px;
+	height: 50px;
+	font-family: inherit;
+	background: black;
+	color: white;
+	border: none;
+	border-radius: 3px;
+}
+
+.nav-principal ul{
+	margin: 0 auto;
+	list-style:none;
+}
+
+.nav-principal{
+	vertical-align: middle;
+	text-align:center;
+}
+
+a{
+	text-decoration:none;
+}
+
+.nav-principal{
+	border-top: solid gray 1px;
+	border-bottom: solid gray 1px;
+}
+
+.container{
+	width: 75%;
+	margin: 0 auto;
+}
+
+.painel li{
+	display: inline-block;
+	vertical-align: top;
+	width: 300px;
+	padding-top: 10px;
+	padding-left: 16px;
+	text-align: center;
+	font-family: lacoste;
+}
+
+.painel li img{
+	height: 200px; 
+}
+
+div h1{
+	width: 300px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+ol li:hover figcaption{
+	color: white;
+}
+
+.painel li:hover{
+	transform: scale(1.1);
+	color: white;
+	background-color: rgba(0,0,0, 0.8);
+	box-shadow: 0px 0px 5px #333;
+	transition: 0.7s;
+}
+
+h1 img{
+	height: 150px;
+}
+
+#condicional {
+	text-align: center;
+}
+
+.painel .hide{
+	display: none;
+}
+
+form{
+	text-align: center;
+	font-size: 18px;
+	font-family: lacoste;
+}
+
+form input, textarea{
+	width: 500px;
+	border-radius: 5px;
+}
