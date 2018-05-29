@@ -8,7 +8,7 @@
 	src: url(fonts/LacosteSansCondensedLight.woff)
 }
 @font-face{
-	font-family: lacoste bold;
+	font-family: lacoste_bold;
 	src: url(fonts/LacosteSansCondensedBold.woff)
 }
 body{
@@ -20,7 +20,7 @@ a{
 }
 
 .nav-principal ul li{
-	font-size: 18px;
+	font-size: 25px;
 	display: inline-block;
 	padding: 2px 10px;
 	margin: 10px 15px;
@@ -28,8 +28,8 @@ a{
 	line-height: inherit;
 	text-transform: uppercase;
 	color: black;
-	font-family: lacoste bold;
-	width: 115px;
+	font-family: lacoste_bold;
+	width: 200px;
 	font-weight: bold
 }
 
@@ -68,13 +68,18 @@ a{
 }
 
 .nav-principal{
-	border-top: solid gray 1px;
-	border-bottom: solid gray 1px;
+	border-top: solid black 1px;
+	border-bottom: solid black 1px;
 }
 
 .container{
 	width: 75%;
 	margin: 0 auto;
+}
+
+.border{
+	border: solid 1px;
+	border-radius: 3px;
 }
 
 .painel li{
@@ -125,9 +130,58 @@ form{
 	text-align: center;
 	font-size: 18px;
 	font-family: lacoste;
+	margin-top: 10px;
 }
 
 form input, textarea{
 	width: 500px;
+	border: black solid 2px;
 	border-radius: 5px;
+}
+
+form legend{
+	font-size: 20px;
+}
+
+div .container{
+	text-align: center;
+}
+
+h2{
+	font-family: lacoste bold;
+	font-size: 22px;
+	padding: 10px;
+}
+
+p{
+	text-indent: 10px;
+	padding: 0 10px;
+	font-size: 20px
+}
+
+div .align p{
+	text-align: center;
+}
+
+.img-destaque{
+	width: 100%;
+}
+
+.content h2{
+	text-transform: uppercase;
+}
+
+.content{
+	width: 500px;
+	margin: 0 auto;
+}
+
+.content img{
+	float:right;
+	clear:right;
+	height: 150px;
+}
+
+.content h2{
+	margin-top: 50px;
 }

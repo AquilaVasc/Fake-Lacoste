@@ -13,8 +13,10 @@
 <body>
 	<div id="menu-principal">
 	</div>
+	<img class="img-destaque" src="img/destaque.jpg" alt="Principal">
 	<div class="container">
-		<section class="painel">
+		<section class="painel border">
+			<h2>Produtos em destaque</h2>
 			<ol>
 				<li>
 					<a href="#">
@@ -64,133 +66,13 @@
 						</figure>
 					</a>
 				</li>
-				<li>
-					<a href="#">
-						<figure>
-							<img src="img/la7.jpeg">
-							<figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
-						</figure>
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						<figure>
-							<img src="img/la8.jpeg">
-							<figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
-						</figure>
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						<figure>
-							<img src="img/la9.jpeg">
-							<figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
-						</figure>
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						<figure>
-							<img src="img/la10.jpg">
-							<figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
-						</figure>
-					</a>
-				</li>
-				<!-- depois daqui  -->
-					<li class="hide">
-						<a href="#">
-							<figure>
-								<img src="img/la11.jpeg">
-								<figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
-							</figure>
-						</a>
-					</li>
-					<li class="hide">
-						<a href="#">
-							<figure>
-								<img src="img/la12.jpeg">
-								<figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
-							</figure>
-						</a>
-					</li>
-					<li class="hide">
-						<a href="#">
-							<figure>
-								<img src="img/la13.jpeg">
-								<figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
-							</figure>
-						</a>
-					</li>
-					<li class="hide">
-						<a href="#">
-							<figure>
-								<img src="img/la14.jpeg">
-								<figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
-							</figure>
-						</a>
-					</li>
-					<li class="hide">
-						<a href="#">
-							<figure>
-								<img src="img/la15.jpeg">
-								<figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
-							</figure>
-						</a>
-					</li>
-					<li class="hide">
-						<a href="#">
-							<figure>
-								<img src="img/la16.jpeg">
-								<figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
-							</figure>
-						</a>
-					</li>
-					<li class="hide">
-						<a href="#">
-							<figure>
-								<img src="img/la17.jpeg">
-								<figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
-							</figure>
-						</a>
-					</li>
-					<li class="hide">
-						<a href="#">
-							<figure>
-								<img src="img/la18.jpeg">
-								<figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
-							</figure>
-						</a>
-					</li>
-					<li class="hide">
-						<a href="#">
-							<figure>
-								<img src="img/la19.jpeg">
-								<figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
-							</figure>
-						</a>
-					</li>
-					<li class="hide">
-						<a href="#">
-							<figure>
-								<img src="img/la20.jpeg">
-								<figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
-							</figure>
-						</a>
-					</li>
 			</ol>
 		</section>
-	</div>
-	<div id="condicional">
-		<button class="button">Veja mais</button>
-	</div>
-	
+	</div>	
 	<script src='js/jquery.min.js'></script>
 	<script>
 		$(document).ready(function(){
 			$('#menu-principal').load('navegacao-geral.html');
-			$('.button').click(function(){
-				$('.hide').removeClass('hide');
-			});
 		});
 	</script>
 </body>

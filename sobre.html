@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lacoste, o jacaré</title>
+	<meta charset="utf-8">
+	
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/reset.css"/>
+	<link rel="stylesheet" href="css/main.css"/>
+</head>
+<body>
+    <div id="menu-principal">
+	</div>
+    <div class="container content">
+        <h2>Lacoste, a história de uma marca icónica</h2>
+        <img src="img/rene.jpg">
+        <p>
+            O amor pelo jogo, a paixão pela inovação e uma certa elegância francesa. 
+            Desde 1933, a história da Lacoste tem se espelhado em seu fundador, René Lacoste, 
+            a lenda do tênis francês que revolucionou o guarda-roupa do dia a dia.
+        </p>
+        <h2>O nascimento do crocodilo</h2>
+        <img src="img/jacare.jpg" alt="">
+        <p>
+            Durante os vibrantes anos 20, o jovem e talentoso 
+            jogador de tênis René Lacoste começou a deixar sua marca 
+            através do seu modo elegante de jogar, sentido de fair play
+            e originalidade que, dez anos mais tarde, seriam uma assinatura da marca.
+        </p>
+        <h2>
+            Sobre o fundador
+        </h2>
+        <img src="img/velho.jpg" alt="">
+        <p>
+            Jonathan lima Lacoste (Paris, 2 de Julho de 1904 — Saint-Jean-de-Luz, 12 de Outubro de 1996) 
+            foi um famoso jogador de tênis francês, empresário e inovador. Por ter sido um dos mais vorazes
+             tenistas de sua época, ele foi apelidado de "o crocodilo" pelos fãs. 
+             Além disso, ele é bastante conhecido por ser o criador, em 1929, 
+             da marca Lacoste (a primeira marca de roupa realmente desenhadas para a prática do tênis). 
+             O logotipo das camisas Lacoste, sempre consideradas de alto padrão, 
+             é justamente o desenho estilizado de um crocodilo. Ele usou sua criação pela primeira vez no US Open.</p>
+    </div>
+
+
+    <script src='js/jquery.min.js'></script>
+	<script>
+		$(document).ready(function(){
+			$('#menu-principal').load('navegacao-geral.html');
+			$('.button').click(function(){
+				$('.hide').removeClass('hide');
+			});
+		});
+	</script>
+</body>
+</html>
